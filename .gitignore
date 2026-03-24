@@ -1,0 +1,25 @@
+# Android
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Gradle
+gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Keystore — KHÔNG bao giờ commit file này
+*.jks
+*.keystore
+keystore.properties
+
+# Release APK
+app/release/
+
+# Test
+*.hprof
